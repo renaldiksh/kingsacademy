@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>The Kings Academy</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"> -->
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">          
+    <!-- Fancybox slider -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">          
+
+    <!-- Main style sheet -->
+    <link href="assets/css/style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body> 
+
+  <!--START SCROLL TOP BUTTON -->
+    <!-- <a class="scrollToTop" href="#">
+      <i class="fa fa-angle-up"></i>      
+    </a> -->
+  <!-- END SCROLL TOP BUTTON -->
+
+  <!-- Start header  -->
+  <!-- <header id="mu-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-header-area">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-left">
+                  <div class="mu-top-email">
+                    <i class="fa fa-envelope"></i>
+                    <span>info@markups.io</span>
+                  </div>
+                  <div class="mu-top-phone">
+                    <i class="fa fa-phone"></i>
+                    <span>(568) 986 652</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-right">
+                  <nav>
+                    <ul class="mu-top-social-nav">
+                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                      <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                      <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                      <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                      <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header> -->
+  <!-- End header  -->
+
+  <!-- Start menu -->
+  <section id="mu-menu">
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html"><i class="fa fa-university"></i><span>The Kings</span></a>
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li class="active"><a href="index.html" style="color: #D4AF37 !">Home</a></li>            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Course Archive</a></li>                
+                <li><a href="#">Course Detail</a></li>                
+              </ul>
+            </li>           
+            <li><a href="#">Gallery</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Blog Archive</a></li>                
+                <li><a href="#">Blog Single</a></li>                
+              </ul>
+            </li>            
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
+          </ul>                     
+        </div>       
+      </div>     
+    </nav>
+  </section>
+
+  <style>
+    #mu-menu {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+    }
+
+    body {
+      padding-top: 70px;
+    }
+  </style>
+
+  <!-- Start search box -->
+  <div id="mu-search">
+    <div class="mu-search-area">      
+      <button class="mu-search-close"><span class="fa fa-close"></span></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">            
+            <form class="mu-search-form">
+              <input type="search" placeholder="Ketikkan Keyword">              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End search box -->
+
+
+  <!-- Start Slider -->
+  <section id="mu-slider">
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="assets/img/slider/1.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Selamat Datang di The Kings Academy</h4>
+        <span></span>
+        <h2>Tempat Terbaik untuk BerKarir</h2>
+        <p>Platform pembelajaran eksklusif untuk kamu yang ingin menguasai strategi penjualan Coway dari nol hingga jago closing!</p>
+        <a href="https://forms.gle/NmqtX6AEWr855h6AA" class="mu-read-more-btn">Daftar Sekarang</a>
+      </div>
+    </div>
+    <!-- Start single slider item -->
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="assets/img/slider/2.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Selamat Datang di The Kings Academy</h4>
+        <span></span>
+        <h2>Training Dengan Ahlinya</h2>
+        <p>Dilatih langsung oleh trainer berpengalaman yang telah terbukti sukses di dunia penjualan Coway.</p>
+        <a href="https://forms.gle/NmqtX6AEWr855h6AA" class="mu-read-more-btn">Daftar Sekarang </a>
+      </div>
+    </div>
+    <!-- Start single slider item -->
+    <!-- Start single slider item -->
+    <div class="mu-slider-single">
+      <div class="mu-slider-img">
+        <figure>
+          <img src="assets/img/slider/3.jpg" alt="img">
+        </figure>
+      </div>
+      <div class="mu-slider-content">
+        <h4>Selamat Datang di The Kings Academy</h4>
+        <span></span>
+        <h2>Kerja Fleksibel, Income Maksimal</h2>
+        <p>Di sini, kamu akan belajar langsung dari tim berpengalaman tentang mindset, teknik presentasi, hingga cara menutup penjualan dengan percaya diri.</p>
+        <a href="https://forms.gle/NmqtX6AEWr855h6AA" class="mu-read-more-btn">Daftar Sekarang</a>
+      </div>
+    </div>
+    <!-- Start single slider item -->    
+  </section>
+  <!-- End Slider -->
+
+
+  <!-- Start service  -->
+  <section id="mu-service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-service-area">
+            <!-- Start single service -->
+            <div class="mu-service-single" style="height: 230px !important;">
+              <span class="fa fa-book"></span>
+              <h3>Learn Online</h3>
+              <p>Kami menyediakan eBook online yang bisa kamu akses kapan saja untuk memperdalam ilmu sales-mu.</p>
+            </div>
+            <!-- Start single service -->
+            <!-- Start single service -->
+            <div class="mu-service-single" style="height: 230px !important;">
+              <span class="fa fa-users"></span>
+              <h3>Expert Teachers</h3>
+              <p>Dilatih langsung oleh trainer-trainer handal yang sudah berpengalaman di dunia penjualan Coway.
+              </p>
+            </div>
+            <!-- Start single service -->
+            <!-- Start single service -->
+            <div class="mu-service-single" style="height: 230px !important;">
+              <span class="fa fa-table"></span>
+              <h3>Best Classrooms</h3>
+              <p>Kami menyediakan fasilitas classroom yang nyaman, bersih, dan kondusif untuk belajar.
+              </p>
+            </div>
+            <!-- Start single service -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End service  -->
+
+ 
+  <!-- agar muncul button wa floating -->
+  <!-- <style>
+    .wa-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    z-index: 999;
+  }
+
+  .wa-button {
+    display: flex;
+    align-items: center;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .wa-button img {
+    width: 20px;
+    margin-right: 8px;
+  }
+
+  .wa-button:hover {
+    background-color: #1ebe57;
+  }
+
+  </style> -->
+
+
+  <!-- Start latest course section -->
+  <section id="mu-latest-courses" style="margin-top: 100px; background-color: #222222; ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12" style="max-height: 730px !important; min-height: 730px !important;">
+          <div class="mu-latest-courses-area">
+            <!-- Start Title -->
+            <div class="mu-title" >
+              <h2>Course Terbaru</h2>
+              <h3 style="color: white;">Di Team Coway Sales The Kings, kami menawarkan berbagai kursus yang dirancang untuk mengasah keterampilan penjualan Anda, membangun kepercayaan diri, dan membawa karir Anda ke level berikutnya!</h3>
+            </div>
+            <!-- End Title -->
+            <!-- Start latest course content -->
+            <div id="mu-latest-course-slide" class="mu-latest-courses-content">
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="assets/img/courses/1.jpeg" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Training</a>
+                      <span><i class="fa fa-clock-o"></i>08:00AM</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Training Product</a></h4>
+                    <p>Para peserta tampak antusias mengikuti sesi training presentasi Coway, mempraktikkan cara menyampaikan produk dengan percaya diri, jelas, dan meyakinkan di depan rekan-rekan mereka.</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#" style="color: #D4AF37">Details</a>
+                      <span class="mu-course-price" href="#">Classroom</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="assets/img/courses/2.jpeg" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Team Consulling</a>
+                      <span><i class="fa fa-clock-o"></i>12:00AM</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Team Leader</a></h4>
+                    <p>"Di Academy Sales Coway, kami tidak hanya fokus pada pelatihan, tapi juga menyediakan tim konseling khusus untuk membantu memaksimalkan potensi dan penjualan setiap anggota tim."</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#" style="color: #D4AF37">Details</a>
+                      <span class="mu-course-price" href="#">Consulling</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="assets/img/courses/3.jpeg" alt="img" style="background-size: 50px;"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Zoom Meeting</a>
+                      <span><i class="fa fa-clock-o"></i>01:00PM</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Pelatihan Daring</a></h4>
+                    <p>Training di Coway Sales kini bisa diikuti dengan mudah melalui Zoom, sehingga Anda tetap bisa belajar dan berkembang di mana pun Anda berada!</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#" style="color: #D4AF37">Details</a>
+                      <span class="mu-course-price" href="#">Daring</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="assets/img/courses/1.jpeg" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Marketing</a>
+                      <span><i class="fa fa-clock-o"></i>07:00AM</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Maksimalkan Penjualan</a></h4>
+                    <p>Ingin jadi sales hebat dengan penghasilan tinggi? Academy Coway Sales The Kings Team siap membimbingmu dari nol hingga closing dengan percaya diri!</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#" style="color: #D4AF37">Details</a>
+                      <span class="mu-course-price" href="#">Profit</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="assets/img/courses/2.jpeg" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Opportunity</a>
+                      <span><i class="fa fa-clock-o"></i>09:00PM</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Insentif Tiap Bulan</a></h4>
+                    <p>Gabung bersama Academy Coway Sales dan raih kesuksesan bersama tim terbaik dengan pelatihan intensif, mentor berpengalaman, dan strategi penjualan terbukti efektif!"
+
+                    </p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#" style="color: #D4AF37">Details</a>
+                      <span class="mu-course-price" href="#">Insentif</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <div class="mu-latest-course-single">
+                  <figure class="mu-latest-course-img">
+                    <a href="#"><img src="assets/img/courses/3.jpg" alt="img"></a>
+                    <figcaption class="mu-latest-course-imgcaption">
+                      <a href="#">Digital Marketing</a>
+                      <span><i class="fa fa-clock-o"></i>12:00PM</span>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-latest-course-single-content">
+                    <h4><a href="#">Marketing Online.</a></h4>
+                    <p>Di Academy Sales Coway, Anda juga akan diajari strategi digital marketing untuk mendukung penjualan secara online dan menjangkau lebih banyak pelanggan!</p>
+                    <div class="mu-latest-course-single-contbottom">
+                      <a class="mu-course-details" href="#" style="color: #D4AF37">Details</a>
+                      <span class="mu-course-price" href="#">Daring</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End latest course content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End latest course section -->
+
+  <!-- start testimoni -->
+  <section id="mu-testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-testimonial-area">
+            <div id="mu-testimonial-slide" class="mu-testimonial-content">
+              <!-- start testimonial single item -->
+              <div class="mu-testimonial-item">
+                <h2 style="text-align: center;">Testimoni</h2><br>
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>Pelatihan yang luar biasa! Trainer-nya sangat profesional, dan saya merasa lebih siap menghadapi pasar setelah mengikuti training ini</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="assets/img/testimonial-1.png" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Renaldy</h4>
+                  <span style="color: #D4AF37">Happy Person</span>
+                </div>
+              </div>
+              <!-- end testimonial single item -->
+              <!-- start testimonial single item -->
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>Training Coway Sales memberikan saya kepercayaan diri lebih dalam berjualan. Materinya jelas dan mudah dipahami. Sangat memuaskan!</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="assets/img/testimonial-3.png" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Al Gazaly</h4>
+                  <span style="color: #D4AF37">Happy Pappa</span>
+                </div>
+              </div>
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>Dari yang awalnya ragu, sekarang saya jadi lebih percaya diri berjualan berkat bimbingan dan training dari Academy Coway Sales.</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="assets/img/testimonial-99.png" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Antony</h4>
+                  <span style="color: #D4AF37">Happy Salma</span>
+                </div>
+              </div>
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>"Belajar di Academy Sales Coway sangat membuka wawasan saya—materinya lengkap, pembawaannya menyenangkan, dan langsung bisa diterapkan di lapangan!"</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="assets/img/testimonial-3.png" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Asep</h4>
+                  <span style="color: #D4AF37">Happy Mom</span>
+                </div>
+              </div>
+              <!-- end testimonial single item -->
+              <!-- start testimonial single item -->
+              <div class="mu-testimonial-item">
+                <div class="mu-testimonial-quote">
+                  <blockquote>
+                    <p>Setelah mengikuti training, saya bisa langsung menerapkan teknik-teknik penjualan yang efektif. Terima kasih Coway Sales!</p>
+                  </blockquote>
+                </div>
+                <div class="mu-testimonial-img">
+                  <img src="assets/img/testimonial-2.png" alt="img">
+                </div>
+                <div class="mu-testimonial-info">
+                  <h4>Stev Smith</h4>
+                  <span style="color: #D4AF37">Happy Student</span>
+                </div>
+              </div>
+              <!-- end testimonial single item -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end testimoni -->
+
+
+  <!-- Start about us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">           
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="mu-about-us-left">
+                  <!-- Start Title -->
+                  <div class="mu-title">
+                    <h2>Tentang Kami</h2>              
+                  </div>
+                  <!-- End Title -->
+                  <p style="text-align: justify;">The Kings Academy adalah komunitas dan pusat pelatihan bagi para sales Coway terbaik yang siap mencetak closer handal di seluruh Indonesia.
+                    Kami terdiri dari tim berpengalaman yang telah membantu ratusan keluarga mendapatkan produk kesehatan terbaik dari Coway, sekaligus membimbing para sales baru agar mampu mencapai target dan sukses di dunia penjualan.
+                    Dengan sistem pelatihan terstruktur, eBook eksklusif, dan bimbingan langsung dari para trainer jagoan, kami percaya semua orang bisa belajar, berkembang, dan jadi top performer bersama The Kings.</p>
+                  <ul>
+                    <li>Memberikan edukasi produk Coway secara menyeluruh dan menyenangkan kepada masyarakat.
+                    </li>
+                    <li>Melatih setiap anggota tim agar menjadi sales yang berkarakter, percaya diri, dan berdaya saing tinggi.
+
+                    </li>
+                    <li>Menciptakan lingkungan kerja yang positif, suportif, dan penuh semangat untuk tumbuh bersama.</li>
+                    <li>Menerapkan strategi digital dan inovatif dalam setiap langkah pemasaran.</li>
+                  </ul>
+                  <p>Bersama The kings, kami tidak hanya menjual produk—kami membawa perubahan gaya hidup yang lebih sehat dan berkualitas.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="mu-about-us-right">                            
+                <a id="mu-abtus-video" href="https://www.youtube.com/embed/HN3pm9qYAUs" target="mutube-video">
+                  <img src="assets/img/about-us.jpeg" alt="img">
+                </a>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End about us -->
+
+
+  <!-- Start about us counter -->
+  <section id="mu-abtus-counter" style="background-color: #333 !important;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-abtus-counter-area">
+            <div class="row">
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single">
+                  <span class="fa fa-book"></span>
+                  <h4 class="counter">568</h4>
+                  <p>Closing</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single">
+                  <span class="fa fa-users"></span>
+                  <h4 class="counter">3500</h4>
+                  <p>Agents</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single">
+                  <span class="fa fa-flask"></span>
+                  <h4 class="counter">12</h4>
+                  <p>Office</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+              <!-- Start counter item -->
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="mu-abtus-counter-single no-border">
+                  <span class="fa fa-user-secret"></span>
+                  <h4 class="counter">250</h4>
+                  <p>Mentors</p>
+                </div>
+              </div>
+              <!-- End counter item -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End about us counter -->
+
+
+  <!-- Start features section -->
+  <section id="mu-features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="mu-features-area">
+            <!-- Start Title -->
+            <div class="mu-title">
+              <h2>Our Missions</h2>
+              <p>Kami selalu siap beradaptasi dengan tren pasar dan memanfaatkan teknologi serta strategi digital marketing terkini untuk menjangkau lebih banyak pelanggan secara cerdas dan efisien.</p>
+            </div>
+            <!-- End Title -->
+            <!-- Start features content -->
+            <div class="mu-features-content">
+              <div class="row">
+                <div class="col-lg-4 col-md-4  col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-book"></span>
+                    <h4>Professional Courses</h4>
+                    <p>Kami berkomitmen untuk tidak hanya menjual produk, tetapi juga memberikan edukasi yang jelas dan menyeluruh mengenai pentingnya hidup sehat dengan air dan udara yang bersih melalui produk Coway.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-users"></span>
+                    <h4>Expert Teachers</h4>
+                    <p>Kami percaya bahwa kekuatan tim terletak pada kualitas individunya. Karena itu, kami terus membina dan melatih setiap anggota agar menjadi sales yang berintegritas, percaya diri, dan profesional dalam setiap interaksi.
+                    </p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-laptop"></span>
+                    <h4>Online Learning</h4>
+                    <p>Kami menjadikan kepercayaan pelanggan sebagai prioritas utama dengan memberikan pelayanan yang cepat, ramah, dan penuh perhatian agar setiap pembelian menjadi awal dari hubungan yang berkelanjutan.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-microphone"></span>
+                    <h4>Audio Lessons</h4>
+                    <p>Kami percaya bahwa setiap penjualan bukan hanya soal angka, tetapi juga kontribusi nyata untuk menciptakan gaya hidup sehat, ramah lingkungan, dan lebih baik bagi masyarakat luas.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-film"></span>
+                    <h4>Video Lessons</h4>
+                    <p>Kami menjunjung tinggi semangat pantang menyerah dan kerja keras dalam mencapai target. Kami yakin, dengan mental positif dan dedikasi tinggi, setiap tantangan bisa diubah menjadi peluang.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                  <div class="mu-single-feature">
+                    <span class="fa fa-certificate"></span>
+                    <h4>Professional Certificate</h4>
+                    <p>Kami percaya bahwa tim yang hebat tumbuh dari budaya kerja yang sehat. Oleh karena itu, kami terus membangun lingkungan yang saling mendukung, menghargai proses, dan merayakan setiap pencapaian bersama, sekecil apa pun itu.</p>
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End features content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End features section -->
+
+  
+
+  <!-- Start our teacher -->
+  <section id="mu-our-teacher">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-our-teacher-area">
+            <!-- begain title -->
+            <div class="mu-title">
+              <h2>Our Mentors</h2>
+              <p>Di balik kesuksesan tim kami, berdiri para mentor hebat yang berpengalaman, inspiratif, dan siap membimbing setiap anggota menuju pencapaian terbaik mereka. Inilah sosok-sosok luar biasa yang menjadi panutan dan sumber motivasi dalam perjalanan kami di Coway Sales.</p>
+            </div>
+            <!-- end title -->
+            <!-- begain our teacher content -->
+            <div class="mu-our-teacher-content">
+              <div class="row">
+                <div class="col-lg-3 col-md-3  col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="assets/img/teachers/teacher-01.png" alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-youtube"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-tiktok"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Kang Atas</h4>
+                      <span>Main Mentors</span>
+                      <p style="text-align: justify;">Mentor Coway Sales yang hebat adalah sosok inspiratif yang tidak hanya membagikan ilmu dan strategi penjualan, 
+                        tetapi juga menanamkan semangat, disiplin, dan mental juara kepada setiap anggota tim. 
+                        Dengan pengalaman lapangan yang luas dan kepedulian tinggi terhadap perkembangan individu, 
+                        mereka hadir sebagai pembimbing yang sabar, pemimpin yang visioner, dan motivator yang selalu mendorong 
+                        tim untuk melampaui batas kemampuan. Kehadiran mereka menjadi fondasi penting 
+                        dalam membentuk sales yang percaya diri, tangguh, dan berorientasi pada hasil nyata</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="assets/img/teachers/teacher-02.png" alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>James Hein</h4>
+                      <span>Physics Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="assets/img/teachers/teacher-03.png" alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>Rebeca Michel</h4>
+                      <span>English Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                  <div class="mu-our-teacher-single">
+                    <figure class="mu-our-teacher-img">
+                      <img src="assets/img/teachers/teacher-04.png" alt="teacher img">
+                      <div class="mu-our-teacher-social">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-linkedin"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                      </div>
+                    </figure>                    
+                    <div class="mu-ourteacher-single-content">
+                      <h4>John Doe</h4>
+                      <span>Biology Teacher</span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quod pariatur recusandae odio dignissimos. Eligendi.</p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div> 
+            <!-- End our teacher content -->           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End our teacher -->
+
+
+  <!-- Start from blog -->
+  <section id="mu-from-blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-from-blog-area">
+            <!-- start title -->
+            <div class="mu-title">
+              <h2>Blog</h2>
+              <p>Update Berita Product Coway</p>
+            </div>
+            <!-- end title -->  
+            <!-- start from blog content   -->
+            <div class="mu-from-blog-content">
+              <div class="row">
+                <div class="col-md-4 col-sm-4">
+                  <article class="mu-blog-single-item">
+                    <figure class="mu-blog-single-img">
+                      <a href="#"><img src="assets/img/blog/blog-1.jpg" alt="img"></a>
+                      <figcaption class="mu-blog-caption">
+                        <h3><a href="#">1. Teknologi Korea yang Teruji dan Terpercaya</a></h3>
+                      </figcaption>                      
+                    </figure>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 April 2025</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Coway menghadirkan produk dengan inovasi mutakhir dari Korea Selatan yang telah terbukti efektif dalam menyaring air dan udara, memberikan perlindungan maksimal untuk kesehatan keluarga Anda.</p>
+                      <a class="mu-read-more-btn" href="#">Read More</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <article class="mu-blog-single-item">
+                    <figure class="mu-blog-single-img">
+                      <a href="#"><img src="assets/img/blog/blog-2.jpg" alt="img"></a>
+                      <figcaption class="mu-blog-caption">
+                        <h3><a href="#">Layanan After-Sales yang Profesional dan Konsisten</a></h3>
+                      </figcaption>                      
+                    </figure>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 Maret 2025</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Dengan sistem kunjungan rutin dari Coway Lady dan tim teknisi ahli, setiap produk Coway selalu dirawat agar tetap berfungsi optimal tanpa repot.</p>
+                      <a class="mu-read-more-btn" href="#">Read More</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <article class="mu-blog-single-item">
+                    <figure class="mu-blog-single-img">
+                      <a href="#"><img src="assets/img/blog/blog-3.jpg" alt="img"></a>
+                      <figcaption class="mu-blog-caption">
+                        <h3><a href="#">Peluang Karir dan Pengembangan Diri di Dunia Sales</a></h3>
+                      </figcaption>                      
+                    </figure>
+                    <div class="mu-blog-meta">
+                      <a href="#">By Admin</a>
+                      <a href="#">02 Mei 2025</a>
+                      <span><i class="fa fa-comments-o"></i>87</span>
+                    </div>
+                    <div class="mu-blog-description">
+                      <p>Bergabung dengan Coway bukan hanya soal menjual, tapi juga tumbuh. Kami menyediakan pelatihan, mentoring, dan sistem dukungan penuh untuk membantu Anda sukses sebagai sales profesional.</p>
+                      <a class="mu-read-more-btn" href="#">Read More</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>     
+            <!-- end from blog content   -->   
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End from blog -->
+
+
+  <!-- Floating CTA Container -->
+  <div class="floating-cta-group">
+    <!-- WhatsApp -->
+    <!-- <a href="https://wa.me/6282333286255" target="_blank" class="floating-cta-item" title="Chat WhatsApp">
+      <i class="fa fa-whatsapp"></i>
+    </a> -->
+    <!-- Telepon -->
+    <!-- <a href="tel:+6285217180039" class="floating-cta-item" title="Telepon Kami">
+      <i class="fa fa-phone"></i>
+    </a> -->
+    <!-- Formulir -->
+    <!-- <a href="https://forms.gle/NmqtX6AEWr855h6AA" target="_blank" class="floating-cta-item" title="Daftar Sekarang">
+      <i class="fa fa-pencil"></i>
+    </a> -->
+    <!-- Instagram -->
+    <!-- <a href="https://instagram.com/" target="_blank" class="floating-cta-item" title="Instagram">
+      <i class="fa fa-instagram"></i>
+    </a> -->
+  </div>
+  
+
+  <style>
+    .floating-cta-group {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 9999;
+    }
+    
+    .floating-cta-item {
+      background-color: #25d366;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      font-size: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background 0.3s;
+      text-decoration: none;
+    }
+    
+    .floating-cta-item:hover {
+      background-color: #1ebe57;
+    }
+    .floating-cta-item:nth-child(2) { background-color: #007bff; } /* Telepon */
+    .floating-cta-item:nth-child(3) { background-color: #f39c12; } /* Form */
+    .floating-cta-item:nth-child(4) { background-color: #e4405f; } /* IG */
+    </style>
+    <!-- end floating cta -->
+  
+
+  <!-- Start footer -->
+  <footer id="mu-footer">
+    <!-- start footer top -->
+    <div class="mu-footer-top">
+      <div class="container">
+        <div class="mu-footer-top-area">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Information</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Course</a></li>
+                  <li><a href="">Event</a></li>
+                  <li><a href="">Sitemap</a></li>
+                  <li><a href="">Term Of Use</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Student Help</h4>
+                <ul>
+                  <li><a href="">Get Started</a></li>
+                  <li><a href="#">My Questions</a></li>
+                  <li><a href="">Download Files</a></li>
+                  <li><a href="">Latest Course</a></li>
+                  <li><a href="">Academic News</a></li>                  
+                </ul>
+              </div>
+            </div> -->
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>News letter</h4>
+                <p>Get latest update, news & academic offers</p>
+                <form class="mu-subscribe-form">
+                  <input type="email" placeholder="Type your Email">
+                  <button class="mu-subscribe-btn" type="submit" style="background-color : #D4AF37" >Subscribe!</button>
+                </form>               
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="mu-footer-widget">
+                <h4>Contact</h4>
+                <address>
+                  <p>Indonesia</p>
+                  <p>Phone: 085217180039 </p>
+                  <p>Website: www.teamkings.com</p>
+                  <p>Email: teamkings@gmail.com</p>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer top -->
+
+    <!-- start footer bottom -->
+    <div class="mu-footer-bottom">
+      <div class="container">
+        <div class="mu-footer-bottom-area">
+          <p>&copy; All Right Reserved. Team Kings Academy</p>
+        </div>
+      </div>
+    </div>
+    <!-- end footer bottom -->
+  </footer>
+  <!-- End footer -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/waypoints.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>  
+  <!-- Mixit slider -->
+  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+  <!-- Add fancyBox -->        
+  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+  
+  
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+
+  </body>
+</html>
